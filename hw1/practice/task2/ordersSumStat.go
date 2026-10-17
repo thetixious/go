@@ -31,7 +31,7 @@ import "fmt"
 // Средний заказ: 13750 коп.
 
 func main() {
-	orders := []int64{}
+	orders := []int64{12000, 7501, 31000, 4500}
 
 	var countOfOrders uint64 = 0
 	var minValuableOrder int64 = 1000000
